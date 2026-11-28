@@ -221,6 +221,7 @@ ro.incremental.enable=true
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 ro.vendor.perf-hal.ver=2.2
+ro.vendor.perf.scroll_opt=1
 
 # QSPM
 ro.vendor.qspm.enable=true
@@ -292,6 +293,7 @@ debug.sf.early.app.duration=13666666
 debug.sf.early.sf.duration=10500000
 debug.sf.earlyGl.app.duration=13666666
 debug.sf.earlyGl.sf.duration=10500000
+debug.sf.enable_hwc_vds=0
 debug.sf.enable_advanced_sf_phase_offset=0
 debug.sf.enable_gl_backpressure=1
 debug.sf.force_cpuset_system_default=1
